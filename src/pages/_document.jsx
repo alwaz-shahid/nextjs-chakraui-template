@@ -9,6 +9,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
+        <script src="https://cdn.tailwindcss.com"></script>
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
