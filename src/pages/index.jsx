@@ -2,6 +2,7 @@ import NextImage from "next/image";
 
 import { Box, Heading, Text, Button } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
+import DragDrop from "../components/uiContainers/DragDrop";
 
 const Home = () => (
   <>
@@ -10,15 +11,20 @@ const Home = () => (
     <Box
       as="section"
       maxW="1440px"
-      py="4"
-      px={[4, 6, 10, 14, 20]}
+      px="2"
       mx="auto"
       display="flex"
-      flexDir={{ base: "column-reverse", lg: "row" }}
-      justifyContent={{ base: "center", lg: "space-between" }}
+      flexDir="column"
+      justifyContent="start"
       alignItems="center"
-      textAlign={{ base: "center", lg: "left" }}
-    ></Box>
+      // px={[4, 6, 10, 14, 20]}
+      // flexDir={{ base: "column-reverse", lg: "row" }}
+      // justifyContent={{ base: "center", lg: "space-between" }}
+      // alignItems="center"
+      // textAlign={{ base: "center", lg: "left" }}
+    >
+      {/* <DragDrop></DragDrop> */}
+    </Box>
   </>
 );
 
