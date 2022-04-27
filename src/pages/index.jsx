@@ -23,6 +23,7 @@ const Home = () => (
       // alignItems="center"
       // textAlign={{ base: "center", lg: "left" }}
     >
+      <Heading as="h1" size="xl" mb="4">Yes</Heading>
       {/* <DragDrop></DragDrop> */}
     </Box>
   </>
