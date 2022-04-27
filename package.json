@@ -1,5 +1,5 @@
 {
-  "name": "kanban-chakra-next-fe",
+  "name": "dbm_dashboard",
   "private": true,
   "scripts": {
     "dev": "next dev",
