@@ -8,6 +8,12 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alwaz-shahid/nextjs-chakraui-template"
+  },
+  "author": "Alwaz Shahid",
+  "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.9",
     "@chakra-ui/react": "^2.3.2",
