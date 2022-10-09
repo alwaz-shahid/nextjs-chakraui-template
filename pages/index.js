@@ -1,5 +1,5 @@
 import { NextSeo } from 'next-seo';
-import Main from '../components/Layout/Main';
+import Main from '../src/components/Layout/Main';
 
 export default function Home() {
   return (

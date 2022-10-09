@@ -1,6 +1,6 @@
 import { Box, Flex, Spacer, Text, useColorMode } from '@chakra-ui/react';
 import React from 'react';
-import Toggle from '../../utils/theme/Toggle';
+import Toggle from '../../utils/Toggle';
 import Logo from './Logo';
 
 export default function Main() {
